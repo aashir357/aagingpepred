@@ -1,0 +1,182 @@
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>AagingPEPred: Anti-aging Peptide Prediction Server</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">  
+        
+        
+        <script src="https://kit.fontawesome.com/614428188e.js" crossorigin="anonymous"></script>
+<!--
+
+TemplateMo 590 topic listing
+
+https://templatemo.com/tm-590-topic-listing
+
+-->
+
+
+<style>
+    .highlighted {
+        background-color: rgb(60 87 142); /* Change this to the desired highlight color */
+        color: white; /* Change this to the desired text color */
+        padding: 5px; /* Optional: Add padding for better visual appearance */
+        display: inline-block;
+    }
+
+    .text-center {
+        text-align: center; /* Center align the text */
+    }
+    .hero-section {
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    width: 100%; /* Ensure the hero section takes up the full width */
+    height: 300px; /* Set the height of the hero section */
+    background-image: url(images/bg/bg2.png); /* Add the gradient and image */
+    background-size: cover, cover; /* Set background size for both gradient and image */
+    background-position: center, center; /* Set background position for both gradient and image */
+    background-repeat: no-repeat; /* Prevent image and gradient repetition */
+    z-index: 1; /* Ensure the hero section stays on top */
+    position: relative; /* Set position to relative */
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+    z-index: 2; /* Put the gradient overlay on top of the background image */
+    opacity: 0.8; /* Adjust the opacity of the gradient overlay */
+}
+
+
+</style>
+
+
+
+    </head>
+    <body id="top">
+    <main>
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.php">
+                    <!--<i class="bi-back"></i>-->
+                    <!--<i class="bi bi-server"></i>-->
+                    <img src="images/server.png" alt="Server Icon" style="height: 1.5rem; margin-right: 0.5rem;">
+                    <span>AagingPEPred</span>
+                </a>
+
+                <div class="d-lg-none ms-auto me-4">
+                    <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5 me-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="pep_pred.php">Predict</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="design_pep.php">Design</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="protein_scan.php">Protein Scan</a>
+                        </li>
+
+                        <!--<li class="nav-item">
+                            <a class="nav-link" href="motif_scan.php">Motif Scan</a>
+                        </li>-->
+
+                        
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Help</a>
+
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarLightDropdownMenuLink">
+                                <!--<li><a class="dropdown-item" href="topics-listing.html">Page needed</a></li>-->
+                                <!--<li><a class="dropdown-item" href="about_model.php">About Model</a></li>-->
+                                <li><a class="dropdown-item" href="model.php">Anti-aging motifs</a></li>
+                                <li><a class="dropdown-item" href="manual.php">User Manual</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="download.php">Download</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="team2.php">Team</a>
+                        </li>
+                    </ul>
+
+                    <!--<div class="d-none d-lg-block">
+                        <a href="#top" class="navbar-icon bi-person smoothscroll"></a>
+                    </div>-->
+                </div>
+            </div>
+        </nav>
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+           
+            <div class="container">
+                <div class="row">
+                 
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h1 class="text-white text-center">AagingPEPred: Anti-aging Peptide Prediction Server</h1>
+
+                        <!--<h6 class="text-center">A supervised ML classification tool to design anti-aging peptides</h6>-->
+                        <!--<div class="text-center"> 
+                            <h6 class="highlighted">A supervised ML classification tool to design anti-aging peptides</h6>
+                        </div>-->
+
+
+                        <!--<form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-text bi-search" id="basic-addon1">
+                                    
+                                </span>
+
+                                <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Design, Code, Marketing, Finance ..." aria-label="Search">
+
+                                <button type="submit" class="form-control">Search</button>
+                            </div>
+                        </form>-->
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+      
+   
+

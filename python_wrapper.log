@@ -1,0 +1,46 @@
+====== Monday 05 May 2025 01:13:35 AM IST ======
+Working directory: /opt/lampp/htdocs/cgntlab/aagingpepred
+Arguments: /opt/lampp/htdocs/cgntlab/aagingpepred/python_test.py
+LD_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/lib/x86_64-linux-gnu:/opt/lampp/lib:/opt/lampp/lib
+PYTHONPATH: /opt/lampp/htdocs/cgntlab/aagingpepred/python_packages:/home/sangita/.local/lib/python3.12/site-packages
+Exit code: 0
+====== Monday 05 May 2025 01:13:35 AM IST ======
+Working directory: /opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide
+Arguments: model_prediction_all_features_random.py
+LD_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/lib/x86_64-linux-gnu:/opt/lampp/lib:/opt/lampp/lib
+PYTHONPATH: /opt/lampp/htdocs/cgntlab/aagingpepred/python_packages:/home/sangita/.local/lib/python3.12/site-packages
+Traceback (most recent call last):
+  File "/opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide/model_prediction_all_features_random.py", line 10, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+Exit code: 1
+====== Monday 05 May 2025 01:18:59 AM IST ======
+Working directory: /opt/lampp/htdocs/cgntlab/aagingpepred
+Arguments: /opt/lampp/htdocs/cgntlab/aagingpepred/python_test.py
+LD_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/lib/x86_64-linux-gnu:/opt/lampp/lib:/opt/lampp/lib
+PYTHONPATH: /opt/lampp/htdocs/cgntlab/aagingpepred/python_packages:/home/sangita/.local/lib/python3.12/site-packages
+Exit code: 0
+====== Monday 05 May 2025 01:18:59 AM IST ======
+Working directory: /opt/lampp/htdocs/cgntlab/aagingpepred
+Arguments: /opt/lampp/htdocs/cgntlab/aagingpepred/package_test.py
+LD_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/lib/x86_64-linux-gnu:/opt/lampp/lib:/opt/lampp/lib
+PYTHONPATH: /opt/lampp/htdocs/cgntlab/aagingpepred/python_packages:/home/sangita/.local/lib/python3.12/site-packages
+Exit code: 0
+====== Monday 05 May 2025 01:19:00 AM IST ======
+Working directory: /opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide
+Arguments: /opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide/debug_wrapper.py
+LD_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/lib/x86_64-linux-gnu:/opt/lampp/lib:/opt/lampp/lib
+PYTHONPATH: /opt/lampp/htdocs/cgntlab/aagingpepred/python_packages:/home/sangita/.local/lib/python3.12/site-packages
+Traceback (most recent call last):
+  File "/opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide/debug_wrapper.py", line 11, in <module>
+    import model_prediction_all_features_random
+  File "/opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide/model_prediction_all_features_random.py", line 10, in <module>
+    import joblib
+ModuleNotFoundError: No module named 'joblib'
+Exit code: 0
+====== Monday 05 May 2025 01:19:00 AM IST ======
+Working directory: /opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide
+Arguments: /opt/lampp/htdocs/cgntlab/aagingpepred/Pred/peptide/test_model.py
+LD_LIBRARY_PATH: /usr/lib/x86_64-linux-gnu:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/opt/lampp/htdocs/cgntlab/aagingpepred/libs:/lib/x86_64-linux-gnu:/opt/lampp/lib:/opt/lampp/lib
+PYTHONPATH: /opt/lampp/htdocs/cgntlab/aagingpepred/python_packages:/home/sangita/.local/lib/python3.12/site-packages
+Exit code: 0
